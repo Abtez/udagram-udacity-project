@@ -47,20 +47,3 @@ Prevent requests without valid authentication headers.
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
 
-### Udagram URL
-
-default URL: 
-
-```
-http://udagram-dev222.us-east-1.elasticbeanstalk.com
-```
-
-To query image use: 
-```
-http://udagram-dev222.us-east-1.elasticbeanstalk.com/filteredimage?image_url={***insert image link here***}
-```
-
-Example: 
-```
-http://udagram-dev222.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://cdn.shopify.com/s/files/1/0070/7032/files/best-free-stock-photo-websites.jpg?v=1619036042&width=1024
-```
